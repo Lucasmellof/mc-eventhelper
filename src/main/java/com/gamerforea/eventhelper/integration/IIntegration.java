@@ -26,6 +26,8 @@ public interface IIntegration
 
 	boolean cantAttack(@Nonnull EntityPlayer player, @Nonnull Entity victim);
 
+	boolean cantAttack(@Nonnull Entity player, @Nonnull Entity victim);
+
 	default boolean cantInteract(
 			@Nonnull EntityPlayer player,
 			@Nonnull EnumHand hand, @Nonnull BlockPos targetPos, @Nonnull EnumFacing targetSide)

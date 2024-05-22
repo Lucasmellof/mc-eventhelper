@@ -30,7 +30,7 @@ public final class EventHelperMod
 
 	@Nonnull
 	@ConfigEnum(comment = "Default API for integration (AUTO, SPONGE, BUKKIT)")
-	public static IntegrationType integrationType = IntegrationType.AUTO;
+	public static IntegrationType integrationType = IntegrationType.BUKKIT;
 
 	@Nonnull
 	@ConfigEnum(comment = "Policy for recursive protection checks with same parameters (prevent Sponge-Forge events conversion stack overflow) (IGNORE, FORCE_ALLOW, FORCE_DENY)")
